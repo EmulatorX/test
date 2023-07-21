@@ -7,6 +7,7 @@
 <title>Richiesta</title>
 </head>
 <body>
+	<!-- commento -->
 	<form action="<%=request.getContextPath()%>/servlet" method="post">
 			<input type="text" name="nome"><br>
 			<input type="text" name="cognome"><br>
