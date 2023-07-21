@@ -21,7 +21,7 @@ public class HeaderHTTP extends HttpServlet {
 
 		out.println("<!doctype html>");
 		out.println("<html>");
-		out.println("<head><title>Mostra Header HTTP</title></head>");
+		out.println("<head><title>Mostra Header -- LUCA è STATO QUI -- HTTP</title></head>");
 		out.println("<body>");
 		out.println("<p>Request Method:" + request.getMethod() + "</p>");
 		out.println("<p>Request URI:" + request.getRequestURI() + "</p>");
